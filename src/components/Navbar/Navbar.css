@@ -3,4 +3,8 @@
     flex-direction: row;
     align-items: center;   
     font-size: .75rem;
+    justify-content: space-between;
+}
+.logo-name{
+    display: flex;    
 }

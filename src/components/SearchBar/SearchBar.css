@@ -1,0 +1,12 @@
+.search-bar{
+    margin-right: 350px;
+    display: flex;
+}
+input{
+    width: 300px;
+}
+button{
+    background-color: white;
+    border: none;
+}
+

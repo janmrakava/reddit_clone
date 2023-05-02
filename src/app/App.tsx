@@ -1,5 +1,6 @@
 
 import { Navbar } from '../components/Navbar/Navbar'
+import { TrendingSiderbar } from '../components/TrendingSidebar/TrendingSideBar'
 import './App.css'
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
   return (
     <>
       <Navbar />
+      <TrendingSiderbar />
     </>
   )
 }

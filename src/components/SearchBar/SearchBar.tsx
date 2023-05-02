@@ -10,7 +10,6 @@ export const SearchBar = () => {
     const { term } = search
     console.log(term)
     const handleChange = (event: { target: { value: string; }; }) =>{
-        //console.log(event.target.value)
         dispatch(setTerm(event.target.value)) 
              
     }
